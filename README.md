@@ -1,32 +1,35 @@
-Dataset
-The dataset includes details like age, sex, family relationships, ticket fare, and cabin information. It is available on the Kaggle competition page titled Titanic - Machine Learning from Disaster.
+# Titanic - Machine Learning from Disaster 🚢
 
-What this Project Covers
-Data cleaning and preprocessing
+This is my solution to the famous Titanic Kaggle competition. The goal is to predict which passengers survived the tragedy using machine learning techniques.
 
-Feature engineering including extracting titles from names and encoding categorical values
+## 📊 Dataset
+- The dataset contains information like age, gender, ticket class, etc.
+- You can find it on Kaggle: [Titanic Dataset](https://www.kaggle.com/competitions/titanic/data)
 
-Model training using Random Forest Classifier
+## 📌 What I Did
+- Cleaned and handled missing data
+- Used `RandomForestClassifier` for prediction
+- Did feature engineering (like extracting titles from names)
+- Tuned hyperparameters to improve accuracy
 
-Accuracy evaluation using cross-validation
+## 🔍 Key Features
+- Jupyter Notebook with step-by-step explanation
+- Model training and evaluation
+- Accuracy score on the test set
 
-Submission generation for the Kaggle competition
+## 🛠 Tools Used
+- Python
+- Pandas, NumPy, Matplotlib, Seaborn
+- Scikit-learn
 
-Tools and Libraries
-Python
+## 📈 Result
+- Public Leaderboard Score: 0.78468
 
-Pandas and NumPy for data manipulation
+## 📁 How to Run
+1. Clone this repo
+2. Open the Jupyter Notebook
+3. Run all cells
 
-Seaborn and Matplotlib for visualization
-
-Scikit-learn for machine learning models
-
-Results
-The model achieved an accuracy of approximately 78 percent on the public leaderboard. Not perfect, but it floats.
-
-How to Use
-Clone or download the repository
-
-Open the notebook file in Jupyter
-
-Run the notebook from top to bottom
+## 💡 Future Improvements
+- Try advanced models like XGBoost
+- Improve feature engineering
