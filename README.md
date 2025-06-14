@@ -30,6 +30,6 @@ This is my solution to the famous Titanic Kaggle competition. The goal is to pre
 2. Open the Jupyter Notebook
 3. Run all cells
 
-## 💡 Future Improvements
+## Future Improvements
 - Try advanced models like XGBoost
 - Improve feature engineering
